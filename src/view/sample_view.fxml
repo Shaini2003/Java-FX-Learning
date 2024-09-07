@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="579.0" prefWidth="812.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SampleController">
+   <children>
+      <Label fx:id="lblHelloWorld" layoutX="385.0" layoutY="51.0" lineSpacing="2.0" prefHeight="103.0" prefWidth="390.0" text="Hello World" textAlignment="CENTER" textFill="#eb0d0d">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <Button layoutX="499.0" layoutY="290.0" mnemonicParsing="false" onAction="#btnSubmitOnAction" prefHeight="60.0" prefWidth="120.0" style="-fx-background-color: #e84393;" text="Submit">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Button>
+      <TextField fx:id="txtUserName" layoutX="441.0" layoutY="174.0" promptText="User Name" />
+      <TextField fx:id="txtPassword" layoutX="441.0" layoutY="227.0" promptText="Password" />
+      <ImageView fitHeight="468.0" fitWidth="350.0" layoutX="24.0" layoutY="51.0" pickOnBounds="true"
+                 preserveRatio="true">
+
+         <Image url="@../images/images%20(2).jpeg"/>
+      </ImageView>
+   </children>
+</AnchorPane>
