@@ -21,10 +21,9 @@
          </font></Button>
       <TextField fx:id="txtUserName" layoutX="441.0" layoutY="174.0" promptText="User Name" />
       <TextField fx:id="txtPassword" layoutX="441.0" layoutY="227.0" promptText="Password" />
-      <ImageView fitHeight="468.0" fitWidth="350.0" layoutX="24.0" layoutY="51.0" pickOnBounds="true"
-                 preserveRatio="true">
+      <ImageView fitHeight="468.0" fitWidth="350.0" layoutX="24.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
 
-         <Image url="@../images/images%20(2).jpeg"/>
+         <Image url="@../images/images%20(2).jpeg" />
       </ImageView>
    </children>
 </AnchorPane>
