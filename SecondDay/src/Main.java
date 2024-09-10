@@ -3,6 +3,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.util.Objects;
+
 public class Main extends Application {
     public static void main(String[] args) {
         launch();
@@ -10,7 +12,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/add_customer_form.fxml"))));
+        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/dash_form.fxml"))));
         primaryStage.show();
         primaryStage.setTitle("Customer Form");
 
